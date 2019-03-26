@@ -1119,7 +1119,7 @@ $document.ready(function () {
         .end();
 
       var swiperOptions = {
-        autoplay: isNoviBuilder ? null : s.attr('data-autoplay') ? s.attr('data-autoplay') === "false" ? undefined : s.attr('data-autoplay') : 5000,
+        autoplay: isNoviBuilder ? null : s.attr('data-autoplay') ? s.attr('data-autoplay') === "false" ? undefined : s.attr('data-autoplay') : 4000,
         direction: s.attr('data-direction') ? s.attr('data-direction') : "horizontal",
         effect: s.attr('data-slide-effect') ? s.attr('data-slide-effect') : "slide",
         speed: s.attr('data-slide-speed') ? s.attr('data-slide-speed') : 600,
